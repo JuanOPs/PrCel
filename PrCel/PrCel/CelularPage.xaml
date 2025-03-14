@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrCel.CelularPage"
+             Title="CelularPage"
+             BindingContext="{x:Reference celulares}">
+    <VerticalStackLayout>
+        <Label 
+            Text="Marca"
+            VerticalOptions="Start"
+            FontSize="Small"
+            HorizontalOptions="Start" />
+
+        <Label
+            Text="{Binding marca}"
+            VerticalOptions="Start"
+            FontSize="Large"
+            HorizontalOptions="End"
+            />
+        
+        <Label
+            Text="Número"
+            VerticalOptions="Start"
+            FontSize="Small"
+            HorizontalOptions="Start"
+            />
+
+        <Label
+            Text="{Binding numero}"
+            VerticalOptions="Start"
+            FontSize="Large"
+            HorizontalOptions="End"
+            />
+
+        <Label
+            Text="Operadora"
+            VerticalOptions="Start"
+            FontSize="Small"
+            HorizontalOptions="Start"
+            />
+
+        <Label
+            Text="{Binding operadora}"
+            VerticalOptions="Start"
+            FontSize="Large"
+            HorizontalOptions="End"
+            />
+    </VerticalStackLayout>
+</ContentPage>
