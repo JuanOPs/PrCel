@@ -11,5 +11,7 @@ namespace PrCel
         public string marca {  get; set; }
         public string numero { get; set; }
         public string operadora { get; set; }
+
+        public bool capinha { get; set; }
     }
 }
