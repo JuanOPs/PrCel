@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PrCel.CelularPage"
              Title="CelularPage"
-             BindingContext="{x:Reference celulares}">
+             BindingContext ="{x:Reference celulares}"
+             >
     <VerticalStackLayout
         BackgroundColor="DarkGray"
         >

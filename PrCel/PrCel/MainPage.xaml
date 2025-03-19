@@ -20,21 +20,21 @@
             <Button
                 Text="Segunda Pagina"
                 x:Name="BtnCelulares2"
-                Clicked="btnCelulares_Clicked"
+                Clicked="BtnCelulares2_Clicked"
                 BackgroundColor="White"
                 />
 
             <Button
                 Text="Terceira Pagina"
                 x:Name="BtnCelulares3"
-                Clicked="btnCelulares_Clicked"
+                Clicked="BtnCelulares3_Clicked"
                 BackgroundColor="White"
                 />
 
             <Button
                 Text="Quarta Página"
                 x:Name="BtnCelulares4"
-                Clicked="btnCelulares_Clicked"
+                Clicked="BtnCelulares4_Clicked"
                 BackgroundColor="White"
                 />
 
