@@ -16,7 +16,7 @@
             celulares.marca = "Samsung";
             celulares.numero = "+55 82 725123335";
             celulares.operadora = "Vivo";
-
+            celulares.cor = "Rosinha";
             Navigation.PushAsync(new CelularPage() { BindingContext = celulares});
         }
     }

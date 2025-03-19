@@ -4,18 +4,22 @@
              x:Class="PrCel.CelularPage"
              Title="CelularPage"
              BindingContext="{x:Reference celulares}">
-    <VerticalStackLayout>
+    <VerticalStackLayout
+        BackgroundColor="DarkGray"
+        >
         <Label 
             Text="Marca"
             VerticalOptions="Start"
             FontSize="Small"
-            HorizontalOptions="Start" />
+            HorizontalOptions="Start"
+            TextColor="Black"/>
 
         <Label
             Text="{Binding marca}"
             VerticalOptions="Start"
             FontSize="Large"
             HorizontalOptions="End"
+            TextColor="Black"
             />
         
         <Label
@@ -23,6 +27,7 @@
             VerticalOptions="Start"
             FontSize="Small"
             HorizontalOptions="Start"
+            TextColor="Black"
             />
 
         <Label
@@ -30,6 +35,7 @@
             VerticalOptions="Start"
             FontSize="Large"
             HorizontalOptions="End"
+            TextColor="Black"
             />
 
         <Label
@@ -37,6 +43,7 @@
             VerticalOptions="Start"
             FontSize="Small"
             HorizontalOptions="Start"
+            TextColor="Black"
             />
 
         <Label
@@ -44,6 +51,38 @@
             VerticalOptions="Start"
             FontSize="Large"
             HorizontalOptions="End"
+            TextColor="Black"/>
+
+        <Label
+            Text="Cor"
+            VerticalOptions="Start"
+            FontSize="Small"
+            TextColor="Black"
             />
+
+        <Label
+            Text="{Binding cor}"
+            VerticalOptions="Start"
+            FontSize="Large"
+            HorizontalOptions="End"
+            TextColor="Black"
+            />
+
+        <Label
+            Text="Capinha"
+            VerticalOptions="Start"
+            FontSize="Small"
+            HorizontalOptions="Start"
+            TextColor="Black"
+            />
+
+        <Label
+            Text="{Binding capinha}"
+            VerticalOptions="Start"
+            FontSize="Large"
+            HorizontalOptions="End"
+            TextColor="Black"
+            />
+
     </VerticalStackLayout>
 </ContentPage>

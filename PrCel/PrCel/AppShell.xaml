@@ -5,11 +5,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:PrCel"
     Shell.FlyoutBehavior="Disabled"
-    Title="Tela de Celular">
+    Title="Tela de Celular"
+    >
 
     <ShellContent
         Title="Modelos de Celulares"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"
+        />
 
 </Shell>

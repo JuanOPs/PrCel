@@ -6,20 +6,38 @@
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="25">
+            Spacing="25"
+            BackgroundColor="DarkGray"
+            >
 
             <Button
                 Text=" Primeira Pagina"
                 x:Name="btnCelulares"
                 Clicked="btnCelulares_Clicked"
+                BackgroundColor="White"
                 />
 
             <Button
                 Text="Segunda Pagina"
                 x:Name="BtnCelulares2"
                 Clicked="btnCelulares_Clicked"
+                BackgroundColor="White"
                 />
-            
+
+            <Button
+                Text="Terceira Pagina"
+                x:Name="BtnCelulares3"
+                Clicked="btnCelulares_Clicked"
+                BackgroundColor="White"
+                />
+
+            <Button
+                Text="Quarta Página"
+                x:Name="BtnCelulares4"
+                Clicked="btnCelulares_Clicked"
+                BackgroundColor="White"
+                />
+
         </VerticalStackLayout>
     </ScrollView>
 
